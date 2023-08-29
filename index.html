@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PRASANTH P</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="shortcut icon" href="./Images/favicon.jpeg" type="image/x-icon">
+	<script defer src="https://kit.fontawesome.com/dd61de60b3.js" crossorigin="anonymous"></script>
+	
+</head>
+
+	
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>
+				<h1>P.</h1>
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#myworks">My works</a></li>
+					<li><a href="#projects">Pojects</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+				</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+			</nav>
+			<div class="header-content">
+				<h3>MERN Stack Developer.</h3>
+				<h3>Flutter Developer.</h3>
+				<h1>Hi, I`m <span>Prasanth.</span></h1>
+			</div>
+		</div>
+	</div>
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about1">
+					<img src="./Images/image1.jpg" alt="">
+				</div>
+				<div class="about2">
+					<h1 class="about-me">About me.</h1>
+					<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Passionate UI/UX designer with a keen eye for
+						detail and a strong focus on creating intuitive
+						and visually appealing digital experiences. With a background in both visual design and
+						user-centered methodologies, I am dedicated to crafting interfaces that seamlessly blend
+						aesthetics and functionality. I specialize in translating user insights into elegant designs
+						through user research, wireframing, and prototyping. My proficiency in design tools such as
+						Adobe XD and Figma, coupled with a deep understanding of interaction design principles, enables
+						me to create engaging and user-friendly solutions. Collaborative by nature, I thrive in
+						cross-functional teams and believe in the power of design to shape memorable and impactful user
+						journeys. Let's work together to turn ideas into delightful, user-centric realities.</p>
+					<div class="title-tabs">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="content-tabs active-tab" id="skills">
+						<ul>
+							<li><span>User-Centered Design.</span><br>Prioritizing user needs and behaviors, and
+								understanding how to design interfaces that are intuitive and aligned with user
+								expectations.
+							</li>
+							<li><span>Visual Design Expertise</span><br>Proficiency in selecting colors, typography,
+								layouts, and other visual elements that create visually appealing and cohesive designs.
+							</li>
+							<li><span>Prototyping and Wireframing</span><br>Skill in creating low-fidelity wireframes
+								and interactive prototypes to visualize and test the layout, flow, and interactions of a
+								digital product.
+							</li>
+							<li><span>Collaboration and Communication</span><br>Effective communication skills to work
+								collaboratively with developers, product managers, and stakeholders, ensuring a smooth
+								and efficient design-to-development process and the successful realization of design
+								concepts.
+							</li>
+						</ul>
+					</div>
+					<div class="content-tabs" id="experience">
+						<ul>
+							<li><span>Content Editing</span><br>Adobe Photoshop</li>
+							<li><span>Beginer Web Designer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.
+							</li>
+							<li><span>Beginer Web Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.
+							</li>
+							<li><span>Beginer MERN Stack Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio,
+								calicut.</li>
+							<li><span>Beginer Flutter Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.
+							</li>
+						</ul>
+					</div>
+					<div class="content-tabs" id="education">
+						<ul>
+							<li><span>Web Designing</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.</li>
+							<li><span>Web Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.</li>
+							<li><span>MERN Stack Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.</li>
+							<li><span>Flutter Developer</span><br>Brototyphe - BroCamp, Mikro Grafeio, calicut.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="services">
+		<div class="container">
+			<h1 class="about-me">My services.</h1>
+			<div class="services-list">
+				<div class="box">
+					<i class="fa-solid fa-chalkboard-user"></i>
+					<h2>User Interface (UI) Design.</h2>
+					<p> Crafting visually appealing layouts, color schemes, typography, and iconography to create a
+						cohesive and attractive visual identity for digital products.</p>
+					<a href="#">Learn more.</a>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-user-check"></i>
+					<h2>User Experience (UX) Design.</h2>
+					<p> Conducting user research, creating wireframes and prototypes, and designing intuitive user flows
+						to ensure smooth and user-friendly interactions.</p>
+					<a href="#">Learn more.</a>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-person-through-window"></i>
+					<h2>Responsive Web Design.</h2>
+					<p> Developing interfaces that adapt seamlessly to various devices and screen sizes, enhancing
+						accessibility and user satisfaction.</p>
+					<a href="#">Learn more.</a>
+				</div>
+			</div>
+			<div class="services-list">
+				<div class="box">
+					<i class="fa-solid fa-laptop-code"></i>
+					<h2>Front-End Development.</h2>
+					<p> Translating UI/UX designs into functional code using HTML, CSS, and JavaScript, ensuring
+						accurate
+						implementation of design concepts.</p>
+					<a href="#">Learn more.</a>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-people-pulling"></i>
+					<h2>Interaction Design.</h2>
+					<p> Designing animations, microinteractions, and transitions that enhance user engagement and create
+						a dynamic user experience.</p>
+					<a href="#">Learn more.</a>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-handshake-angle"></i>
+					<h2>Accessibility Optimization.</h2>
+					<p> Ensuring that digital products adhere to accessibility standards, making them usable for
+						individuals with disabilities.</p>
+					<a href="#">Learn more.</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="myworks">
+		<div class="container">
+			<h1 class="about-me">My works.</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="./Images/work-image-1.png" alt="">
+					<div class="layer">
+						<h3>Mobile App</h3>
+						<p>You can download and start using the app, available in Play Store and App Store</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Images/work-image-2.png" alt="">
+					<div class="layer">
+						<h3>Web App</h3>
+						<p>You can download and start using the app, available in Play Store and App Store</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Images/work-image-3.jpg" alt="">
+					<div class="layer">
+						<h3>Online Shopping Mart App</h3>
+						<p>You can download and start using the app, available in Play Store and App Store</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+	<div id="projects">
+		<div class="container">
+			<h1 class="about-me">My projects.</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="./Images/netflix.png" alt="">
+					<div class="layer">
+						<h3>Netflix Website Clone</h3>
+						<p>You can download and see or reffer from the link</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Images/amazon.png" alt="">
+					<div class="layer">
+						<h3>Amazon Website Clone</h3>
+						<p>You can download and see or reffer from the link</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="./Images/portfolio.png" alt="">
+					<div class="layer">
+						<h3>Portfolio Project</h3>
+						<p>You can download and see or reffer from the link</p>
+						<a href="#"><i class="fa-solid fa-link"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="about-me">Contact me.</h1>
+					<P><i class="fa-solid fa-envelope"></i>prasanthperalath@gmail.com</P>
+					<p><i class="fa-solid fa-phone"></i>+91 94976 78839</p>
+					<div class="social-media">
+						<a href="https://www.facebook.com/prasanthperalath"><i
+								class="fa-brands fa-square-facebook"></i></a>
+						<a href="https://www.instagram.com/nerdflaw/"><i class="fa-brands fa-square-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/prasanth-p-194b03132/"><i
+								class="fa-brands fa-linkedin"></i></a>
+						<a href="https://wa.me/9497678839"><i class="fa-brands fa-square-whatsapp"></i></a>
+					</div>
+					<a href="./Documents/PRASANTH P.pdf" class="btn btn2" download="">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your name" required>
+						<input type="email" name="Email" inputmode="email" placeholder="Your email" required>
+						<input type="text" name="Phone" inputmode="numeric" placeholder="Your phone number" required>
+						<textarea name="Message" id="" cols="30" rows="6" placeholder="Your message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>Copyrigt &#169; <span>Prasanth.</span></p>
+	</div>
+	<script>
+		var tabLinks = document.getElementsByClassName('tab-links');
+		var tabContents = document.getElementsByClassName('content-tabs');
+		function opentab(tabName) {
+			for (tabLink of tabLinks) {
+				tabLink.classList.remove('active-link');
+			}
+			for (tabContent of tabContents) {
+				tabContent.classList.remove('active-tab');
+			}
+			event.currentTarget.classList.add('active-link');
+			document.getElementById(tabName).classList.add('active-tab');
+		}
+	</script>
+	<script>
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbxyZ3nMcW7h0VM2EZ1VFCxrMRferp4q_3ZgaC0xUWe0x8AEOvl2MLERJ55VefBARRq3Sw/exec'
+		const form = document.forms['submit-to-google-sheet']
+		const msg = document.getElementById("msg")
+
+		form.addEventListener('submit', e => {
+			e.preventDefault()
+			fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+				.then(response => {
+					msg.innerHTML = "Message sent successfully"
+					setTimeout(function(){
+						msg.innerHTML=""
+					},5000)
+					form.reset()
+				})
+				.catch(error => console.error('Error!', error.message))
+		})
+	</script>
+	<!-- menu start -->
+	<script>
+		var sideMenu = document.getElementById("sidemenu");
+
+		function openmenu(){
+			sideMenu.style.right = "0";
+		}
+		function closemenu(){
+			sideMenu.style.right = "-200px";
+		}
+	</script>
+	<!-- menu end -->
+
+</body>
+
+</html>
